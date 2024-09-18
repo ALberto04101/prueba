@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Alberto Smoljanovic</h1>
+        
+        <section id="summary">
+            <h2>Resumen</h2>
+            <p>Alberto Eduardo Smoljanovic Schmidt nació en Santiago, pero se fue a vivir a Punta Arenas. Empezó estudiando en el Colegio Alemán de Punta Arenas, luego para la PAES estudió en el Preuniversitario CPECH y ahora estudia en Desafío Latam.</p>
+            <img src="/assets/alberto.jpeg" alt="Alberto Smoljanovic" style="max-width: 100%; height: auto;">
+        </section>
+        
+        <section id="education">
+            <h2>Educación</h2>
+            <ul>
+                <li>Colegio Alemán de Punta Arenas</li>
+                <li>Preuniversitario CPECH</li>
+                <li>Desafío Latam</li>
+            </ul>
+        </section>
+        
+        <section id="experience">
+            <h2>Experiencia</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proyecto</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Proyecto 1</td>
+                        <td>Descripción del Proyecto 1.</td>
+                    </tr>
+                    <tr>
+                        <td>Proyecto 2</td>
+                        <td>Descripción del Proyecto 2.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portafolio</h2>
+            <p>A continuación se muestran algunos de mis trabajos anteriores:</p>
+            <div class="portfolio">
+                <img src="/Imagenes/curriculum vitae.png" alt="Trabajo 1">
+                <img src="/Imagenes/landing page plantas.png" alt="Trabajo 2">
+                <img src="/Imagenes/iguana page.png" alt="Trabajo 3">
+                <img src="/Imagenes/Boostrap.png" alt="Trabajo 4">
+                <img src="/Imagenes/github.png" alt="Trabajo 5">
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Alberto Smoljanovic</p>
+    </footer>
+</body>
+</html>
